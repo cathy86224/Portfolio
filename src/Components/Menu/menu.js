@@ -7,7 +7,7 @@ import CathyLogo from "../../images/cathy.png"
 import "./menu.scss"
 
 const MENU_ITEMS = ['about','projects','work','contact']
-const DEFAULT_TAB = "projects"
+const DEFAULT_TAB = "about"
 
 class intro extends Component {
     constructor(props) {
