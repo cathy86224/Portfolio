@@ -1,26 +1,39 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import Home from "./Components/Welcome/Home/home"
+import Menu from "./Components/Menu/menu"
+import './App.scss';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Cathy Hsieh
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+class App extends React.Component {
+  constructor(props) {
+    super(props)
+    this.state = {
+      enteredName: "",
+      switch: false
+    }
+  }
+
+  componentDidUpdate(prevProp, prevState) {
+    if(prevState.enteredName !== this.state.enteredName && this.state.enteredName !== "") {
+      setTimeout(() => {
+        this.setState({switch: true})
+      }, 2500);
+    }
+  }
+
+  enteredName = name => {
+    this.setState({enteredName: name})
+  }
+
+  render() {
+    return (
+    <div className="app">
+      {/* {!this.state.switch && 
+        <Home enteredName={this.enteredName}/>
+      } */}
+      <Menu enteredName={this.state.enteredName}/>
     </div>
-  );
+    )
+  }
 }
 
 export default App;
