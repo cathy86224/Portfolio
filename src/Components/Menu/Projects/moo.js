@@ -26,8 +26,8 @@ export default class moo extends Component {
                     <br/>
                     <br/>
                     <i>Website link: </i>
-                    <a href="https://ceed.ucdavis.edu/" target="_blank">
-                        CEED
+                    <a href="https://thermoostat.ucdavis.edu/" target="_blank">
+                        TherMOOstat
                     </a>
                 </p>
                 <img className="ceed" src={Jot} alt="TherMoostat img"/>

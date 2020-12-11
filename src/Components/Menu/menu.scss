@@ -149,6 +149,7 @@
                     .toaster {
                         width: 100%;
                         box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.2);
+                        border-radius: 10px;
                         &.one {
                             margin-left: 120%;
                         }
@@ -163,7 +164,7 @@
                     left: 95%;
                     width: 103%;
                     box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.2);
-
+                    border-radius: 5px;
                     &.one {
                         top: 54%;
                     }
@@ -221,7 +222,7 @@
                     .sub-header {
                         position: absolute;
                         left: 50px;
-                        top: 18%;
+                        top: 90px;
                         text-align: left;
                         font-weight: bold;
                         .date {
@@ -231,7 +232,7 @@
                         }
                     }
                     .p1{
-                        margin-top: 10%;
+                        margin-top: 40px;
                         padding-left: 20px;
                         a{
                             color: black;
@@ -253,7 +254,7 @@
                         width: 41%;
                         left: 91%;
                         box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.2);
-
+                        border-radius: 20px;
                         &.two {
                             width: 40.3%;
                             left: 132.8%;
