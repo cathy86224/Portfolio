@@ -42,9 +42,7 @@ class intro extends Component {
     }
 
     render() {
-        let name = this.props.enteredName
         return (
-            // <div className={name !== "" ? "menu entered" : "menu"}>
             <div className="menu entered">
                 <div className="menu-header">
                     {MENU_ITEMS.map(item => (
