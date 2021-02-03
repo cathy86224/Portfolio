@@ -234,6 +234,10 @@
                     .p1{
                         margin-top: 40px;
                         padding-left: 20px;
+                        font-size: 15px;
+                        i {
+                            font-weight: 500;
+                        }
                         a{
                             color: black;
                         }
@@ -241,12 +245,6 @@
                             color: rgb(72, 72, 72);
                             font-size: 12px;
 
-                        }
-                        &.eec {
-                            font-size: 15px;
-                            i {
-                                font-weight: 500;
-                            }
                         }
                     }
                     .opth {
