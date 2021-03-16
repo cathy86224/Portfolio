@@ -8,7 +8,7 @@ export default class eec extends Component {
         return (
             <React.Fragment>
                 <div className="sub-header">
-                    • EEC 172 Final Lab - Smart Toaster System
+                    • Embedded System Course - Smart Toaster
                 </div>
                 <p className="p1 eec" >
                     <i>Project background: </i>
